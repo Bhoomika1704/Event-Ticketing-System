@@ -1,10 +1,10 @@
 import { Sequelize } from 'sequelize';
+import dotenv from 'dotenv';
 
-export const sequelize = new Sequelize({
-  dialect: 'postgres',
-  host: 'localhost',
-  username: 'your_username',
-  password: 'your_password',
-  database: 'event_ticketing',
+dotenv.config();
+
+const sequelize = new Sequelize(process.env.DATABASE_URL as string, {
+  logging: false,
 });
 
+export default sequelize;
