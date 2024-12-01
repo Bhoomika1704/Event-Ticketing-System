@@ -68,7 +68,7 @@ Event-Ticketing-system/
 ## Setup and Installation
 
 1. Clone the repository:
-git clone https://github.com/Bhoomika1704/Event-Ticketing-System.git
+git clone https://github.com/Bhoomika1704/Event-Ticketing-System-ETS-.git
 cd Event-Ticketing-System
 
 2. Install dependencies:
